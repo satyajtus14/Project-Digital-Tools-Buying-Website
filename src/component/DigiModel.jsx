@@ -2,7 +2,7 @@ import React, { use } from 'react';
 import ModelCard from './ModelCard';
 
 
-const DigiModel = ({modelPromise}) => {
+const DigiModel = ({modelPromise,carts,setCarts}) => {
 
     
     const modelData = use(modelPromise);
@@ -13,7 +13,7 @@ const DigiModel = ({modelPromise}) => {
             <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10'>
                 {
                     modelData.map(model => 
-                        <ModelCard key={model.id} model={model}/>    
+                        <ModelCard key={model.id} model={model} carts={carts} setCarts={setCarts}/>    
                     )
                 }
 

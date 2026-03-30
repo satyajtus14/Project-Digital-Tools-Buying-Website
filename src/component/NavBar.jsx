@@ -2,7 +2,7 @@ import React from 'react';
 import { FiShoppingCart } from "react-icons/fi";
 
 
-const NavBar = () => {
+const NavBar = ({carts}) => {
     return (
         <div className="navbar max-w-7xl mx-auto">
         <div className="navbar-start">
@@ -31,7 +31,7 @@ const NavBar = () => {
         </div>
         <div className="navbar-end gap-3">
          
-          <a> <FiShoppingCart /></a>
+          <a> <FiShoppingCart />{carts.length}</a>
           <a> Login</a>
           <a className="btn bg-gradient-to-t from-[#4f39f6] to-[#9514fa] rounded-full text-white">Get Started</a>
         </div>

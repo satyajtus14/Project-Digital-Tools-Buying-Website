@@ -3,7 +3,7 @@ import { VscCheck } from "react-icons/vsc";
 import { toast } from 'react-toastify';
 
 
-const ModelCard = ({model}) => {
+const ModelCard = ({model,carts,setCarts}) => {
  
     // This State need for active "Buy Now" button
     const [isBuyNow, setIsBuyNow]= useState(false)
@@ -11,6 +11,16 @@ const ModelCard = ({model}) => {
     const handleBuyNow =()=>{
         setIsBuyNow(true);
         toast.success('Item Added To Cart');
+
+      const isFoundItem = carts.find(item => item.id === model.id)
+        
+        if(isFoundItem){
+            toast.error('Item already in cart')
+            return;
+        }
+            
+        setCarts([...carts,model])
+        toast.success(`Wow Your ${model.title} item added!`);
 
     }
     
