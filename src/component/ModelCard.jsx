@@ -5,6 +5,7 @@ import { toast } from 'react-toastify';
 
 const ModelCard = ({model}) => {
  
+    // This State need for active "Buy Now" button
     const [isBuyNow, setIsBuyNow]= useState(false)
     
     const handleBuyNow =()=>{

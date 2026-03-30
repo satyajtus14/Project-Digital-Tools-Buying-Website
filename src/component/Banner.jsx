@@ -5,7 +5,7 @@ import { CgEditBlackPoint } from "react-icons/cg";
 
 const Banner = () => {
     return (
-      <div className='space-y-8'>
+      <div className='space-y-8 '>
         <div className="relative min-h-162.5 flex items-center overflow-hidden">
         <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
           {/* Left Content */}
@@ -85,13 +85,16 @@ const Banner = () => {
       
 
     </div>
+    
     <div className='text-center'>
       <h1 className='text-6xl font-bold'>Premium Digital Tools</h1> <br />
       <p className='text-[#627382]'>
       Choose from our curated collection of premium digital products designed <br />
       to boost your productivity and creativity.
       </p>
-    </div>
+    </div> <br /> <br />
+    
+
     </div>
     );
 };
