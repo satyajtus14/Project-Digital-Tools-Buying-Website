@@ -73,7 +73,7 @@ Installation Steps
 	◦	Outputs optimized files to the dist/ directory.
 
 
-#5 . Key Components
+# 5. Key Components
 
 5.1. App.jsx (Main Component)
 
