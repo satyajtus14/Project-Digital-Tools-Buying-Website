@@ -1,4 +1,13 @@
-# 🚀 Digital Tools Buying Application
+<p align="center">
+  <img src="public/logo.png" alt="Logo" width="120" />
+</p>
+
+<h1 align="center"># 🚀 Digital Tools Buying Application</h1>
+
+<p align="center">
+  A modern platform to explore and purchase digital tools 🚀
+</p>
+
 
 # React + Vite Application for Digital Tools Buying & Subscription Management
 
