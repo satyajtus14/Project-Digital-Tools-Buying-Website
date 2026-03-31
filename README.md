@@ -94,8 +94,8 @@ Purpose: Displays a grid of Digital Tools using ModelCard.
 
 Key Features:
 Uses use() hook to await modelPromise.
-Renders models in a responsive grid (grid-cols-1 md:grid-cols-2 lg:grid-cols-3).
 
+Renders models in a responsive grid (grid-cols-1 md:grid-cols-2 lg:grid-cols-3).
 
 const modelData = use(modelPromise);
 
@@ -107,4 +107,78 @@ return (
   </div>
 );
 
+5.3. ModelCard.jsx (Individual Model UI)
+Purpose: Represents a single Digital Tools model with:
+Icon Image, title, description, price, features, and tag-status badge.
+"Add to Cart" button with toast feedback.
 
+Key Logic:
+Tracks subscription state (isBuyNow) to prevent duplicates.
+Uses react-toastify for success/error messages.
+
+    const handleBuyNow =()=>{
+        setIsBuyNow(true);
+      const isFoundItem = carts.find(item => item.id === model.id)
+        if(isFoundItem){
+            toast.error('Item already in cart')
+            return;
+        }
+        setCarts([...carts,model])
+        toast.success(`Wow Your ${model.title} item added!`);
+    }
+5.4. Cart.jsx (Shopping Cart)
+Purpose: Displays cart contents and allows removal of items.
+Key Features:
+Calculates total price via reduce().
+Renders empty state if cart is empty.
+Provides "Remove" buttons for each item.
+const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
+
+const handleDelete = (item) => {
+  const filterCartItem = carts.filter(cartItem => cartItem.id !== item.id)
+       setCarts(filterCartItem)
+       toast.success(`Your item deleted to cart!`);
+};	
+
+5.5. NavBar.jsx (Navigation)
+Purpose: Provides global navigation with:
+Logo, menu items (Products, Features, Pricing, Testimonials, FAQ), with Cart icon and a "Get Started" button.
+Key Features:
+Responsive design (hidden on mobile, full menu on desktop).
+<div className="navbar">
+  <div className="navbar-start">
+    <div className="flex items-center gap-1 font-bold text-xl">
+      DigiTools
+    </div>
+  </div>
+  <div className="navbar-center hidden md:flex">
+    <ul className="menu menu-horizontal gap-10 px-1 text-lg">
+      <li><a>Products</a></li>
+      <li><a>Features</a></li>
+      <li><a>Pricing</a></li>
+      <li><a>Testimonials</a></li>
+	  <li><a>FAQ</a></li>
+    </ul>
+  </div>
+  <div className="navbar-end gap-5">
+    <a className="btn bg-red-500 rounded-full text-white">Get Started</a>
+  </div>
+
+# 6. Configuration
+
+6.1. package.json
+Scripts:
+
+Script	Command	Description
+dev	vite	Starts the development server.
+build	vite build	Generates production-ready files.
+lint	eslint .	Runs ESLint for code quality checks.
+preview	vite preview	Serves the production build locally.
+Dependencies:
+
+@tailwindcss/vite, lucide-react, react-toastify: UI and utility libraries.
+react, react-dom: Core React dependencies.
+Dev Dependencies:
+
+@vitejs/plugin-react: React plugin for Vite.
+eslint, daisyui: Linting and styling tools.
