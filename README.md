@@ -2,7 +2,7 @@
   <img src="public/logo.png" alt="Logo" width="200" />
 </p>
 
-<h1 align="center"># 🚀 Digital Tools Buying Application</h1>
+<h1 align="center">🚀 Digital Tools Buying Application</h1>
 
 <p align="center">
   A modern platform to explore and purchase digital tools 🚀
