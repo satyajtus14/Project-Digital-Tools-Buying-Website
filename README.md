@@ -30,26 +30,28 @@ Key Features
 
 📁 Project Structure
 digital-tool-buying-application/
-├── public/                           # Static assets (HTML, images, JSON data)
-│   ├── index.html                    # Entry HTML file
-│   ├── logo.png                      # Application logo
-│   └── models.json                   # Digital tools data (mock API)
-├── src/                              # Source code
-│   ├── components/                   # Reusable UI components
-│   │   ├── Banner.jsx                # Hero banner component
-│   │   ├── Cart.jsx                  # Shopping cart UI
-│   │   ├── Footer.jsx                # Footer section
-│   │   ├── ModelCard.jsx             # Individual model card
-│   │   ├── DigiModels.jsx            # Model listing grid
-│   │   ├── OtherStaticElements.jsx   # Managing other static web elements
-│   │   └── NavBar.jsx                # Navigation bar
-│   ├── App.jsx                        # Main application component
-│   ├── index.css                      # Global CSS (Tailwind + DaisyUI)
-│   └── main.jsx                       # React entry point
-├── .gitignore                         # Ignored files (logs, node_modules, etc.)
-├── package.json                       # Project dependencies and scripts
-├── vite.config.js                     # Vite configuration
-└── README.md                           # Project documentation
+├── public/                                     # Static assets (HTML, images, JSON data)
+│   ├── index.html                              # Entry HTML file
+│   ├── logo.png                                # Application logo
+│   └── models.json                             # Digital tools data (mock API)
+├── src/                                        # Source code
+│   ├── components/                             # Reusable UI components
+│   │   ├── Banner.jsx                          # Hero banner component
+│   │   ├── Cart.jsx                            # Shopping cart UI
+│   │   ├── Footer.jsx                          # Footer section
+│   │   ├── ModelCard.jsx                       # Individual model card
+│   │   ├── DigiModels.jsx                      # Model listing grid
+│   │   ├── OtherStaticElements.jsx             # Managing other static web elements
+│   │   └── NavBar.jsx                          # Navigation bar
+│   ├── App.jsx                                 # Main application component
+│   ├── index.css                               # Global CSS (Tailwind + DaisyUI)
+│   └── main.jsx                                # React entry point
+├── .gitignore                                  # Ignored files (logs, node_modules, etc.)
+├── package.json                                # Project dependencies and scripts
+├── vite.config.js                              # Vite configuration
+└── README.md                                   # Project documentation
+
+
 
 4. Setup & Installation
 Prerequisites
