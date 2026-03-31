@@ -58,10 +58,12 @@ Prerequisites
 
 	•	Node.js (v18+ recommended)
 	•	npm or yarn (v7+)
+
+
 Installation Steps
 
-	1	Clone the repository: git clone <repository-url>
-	2	cd digitoolsapps  
+	1	Clone the repository: git clone <repository-url>.
+	2	cd digitoolsapps
 	3	Install dependencies: npm install
 	4	# or
 	5	yarn install  
@@ -71,7 +73,7 @@ Installation Steps
 	◦	Outputs optimized files to the dist/ directory.
 
 
-5. Key Components
+6. Key Components
 
 5.1. App.jsx (Main Component)
 
