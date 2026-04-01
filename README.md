@@ -44,25 +44,7 @@ This project is a sophisticated "Digital Tools Buying Website" designed to provi
 
 **Frontend:**
 
-[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
-
-[![React Router DOM](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)
-
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-
-[![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)](https://daisyui.com/)
-
-[![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white)](https://postcss.org/)
-
-[![Autoprefixer](https://img.shields.io/badge/Autoprefixer-E0542D?style=for-the-badge&logo=autoprefixer&logoColor=white)](https://github.com/postcss/autoprefixer)
-
-[![React Toastify](https://img.shields.io/badge/React_Toastify-5F2EEA?style=for-the-badge&logo=react-toastify&logoColor=white)](https://fkhadra.github.io/react-toastify/)
-
-[![React Hot Toast](https://img.shields.io/badge/React_Hot_Toast-EA580C?style=for-the-badge&logo=react-hot-toast&logoColor=white)](https://react-hot-toast.com/)
-
-[![LocalForage](https://img.shields.io/badge/LocalForage-104975?style=for-the-badge&logo=localforage&logoColor=white)](https://localforage.github.io/localforage/)
-
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)  [![React Router DOM](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/)  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)  [![DaisyUI](https://img.shields.io/badge/DaisyUI-5A0EF8?style=for-the-badge&logo=daisyui&logoColor=white)](https://daisyui.com/)  [![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white)](https://postcss.org/)  [![Autoprefixer](https://img.shields.io/badge/Autoprefixer-E0542D?style=for-the-badge&logo=autoprefixer&logoColor=white)](https://github.com/postcss/autoprefixer)  [![React Toastify](https://img.shields.io/badge/React_Toastify-5F2EEA?style=for-the-badge&logo=react-toastify&logoColor=white)](https://fkhadra.github.io/react-toastify/)  [![React Hot Toast](https://img.shields.io/badge/React_Hot_Toast-EA580C?style=for-the-badge&logo=react-hot-toast&logoColor=white)](https://react-hot-toast.com/)  [![LocalForage](https://img.shields.io/badge/LocalForage-104975?style=for-the-badge&logo=localforage&logoColor=white)](https://localforage.github.io/localforage/)  [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 
 **Build Tool:**
