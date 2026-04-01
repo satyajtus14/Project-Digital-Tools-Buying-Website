@@ -15,11 +15,12 @@
 
 [Live Demo](https://milestone-06-digital-tools-buying-website.vercel.app/) 
 [Repository](https://github.com/satyajtus14/Milestone-06-Digital-Tools-Buying-Website)
-
-# Live Link:  
-  ** GitHub: https://satyajtus14.github.io/Milestone-06-Digital-Tools-Buying-Website/	
-  ** Netlify: https://digitaltoolbuyingapp-sj.netlify.app/    
+ 
 </div>
+
+ # Live Link:  
+  ** GitHub: https://satyajtus14.github.io/Milestone-06-Digital-Tools-Buying-Website/	
+  ** Netlify: https://digitaltoolbuyingapp-sj.netlify.app/  
 
 ## 📖 Overview
 
@@ -41,6 +42,7 @@ This project is a sophisticated "Digital Tools Buying Website" designed to provi
 ## 🛠️ Tech Stack
 
 **Frontend:**
+
 [![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)    
 [![React Router DOM](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)](https://reactrouter.com/) 
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)  
