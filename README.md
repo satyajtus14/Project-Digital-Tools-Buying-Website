@@ -16,9 +16,9 @@
 [Live Demo](https://milestone-06-digital-tools-buying-website.vercel.app/) 
 [Repository](https://github.com/satyajtus14/Milestone-06-Digital-Tools-Buying-Website)
 
-# Live Link:
-1. GitHub: https://satyajtus14.github.io/Milestone-06-Digital-Tools-Buying-Website/ 
-2. Netlify: https://digitaltoolbuyingapp-sj.netlify.app/    
+# Live Link:  
+  GitHub: https://satyajtus14.github.io/Milestone-06-Digital-Tools-Buying-Website/ 
+  Netlify: https://digitaltoolbuyingapp-sj.netlify.app/    
 </div>
 
 ## 📖 Overview
