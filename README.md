@@ -17,7 +17,7 @@
 [Repository](https://github.com/satyajtus14/Milestone-06-Digital-Tools-Buying-Website)
 
 # Live Link:  
-  ** GitHub: https://satyajtus14.github.io/Milestone-06-Digital-Tools-Buying-Website/ 
+  ** GitHub: https://satyajtus14.github.io/Milestone-06-Digital-Tools-Buying-Website/	
   ** Netlify: https://digitaltoolbuyingapp-sj.netlify.app/    
 </div>
 
