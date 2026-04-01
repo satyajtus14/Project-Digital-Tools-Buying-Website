@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "title": "Notion",
+    "description": "All-in-one workspace for notes, tasks, and projects\nCollaborate with teams in real-time",
+    "price": 6,
+    "period": "monthly",
+    "tag": "Popular",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg",
+    "tagType": "Popular",
+    "features": ["Custom templates", "Team collaboration", "Database integration"]
+  },
+  {
+    "id": 2,
+    "title": "Figma",
+    "description": "Design and prototype user interfaces\nWork seamlessly with team members",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+    "tagType": "Best Seller",
+    "features": ["Vector graphics", "Interactive prototyping", "Collaboration tools"]
+  },
+  {
+    "id": 3,
+    "title": "Slack",
+    "description": "Team communication and collaboration platform\nOrganize conversations by channels",
+    "price": 8,
+    "period": "monthly",
+    "tag": "Popular",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+    "tagType": "Popular",
+    "features": ["Channels & threads", "File sharing", "App integrations"]
+  },
+  {
+    "id": 4,
+    "title": "Canva",
+    "description": "Graphic design tool for beginners and pros\nCreate social media graphics and presentations",
+    "price": 13,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "icon": "https://i.ibb.co/0yJC3Cnn/Canva-New-Logo.png",
+    "tagType": "Best Seller",
+    "features": ["Templates", "Stock photos", "Brand kit"]
+  },
+  {
+    "id": 5,
+    "title": "Trello",
+    "description": "Project management with boards and cards\nTrack tasks visually and efficiently",
+    "price": 5,
+    "period": "monthly",
+    "tag": "New",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Trello-logo-blue.svg",
+    "tagType": "New",
+    "features": ["Kanban boards", "Automation", "Team collaboration"]
+  },
+  {
+    "id": 6,
+    "title": "Zoom",
+    "description": "Video conferencing made simple\nHost meetings and webinars with ease",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Popular",
+    "icon": "https://i.ibb.co/w1NPRNZ/zoom-logo.avif",
+    "tagType": "Popular",
+    "features": ["HD video/audio", "Screen sharing", "Breakout rooms"]
+  },
+  {
+    "id": 7,
+    "title": "Grammarly",
+    "description": "AI-powered writing assistant\nImprove grammar, clarity, and style",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "icon": "https://i.ibb.co/qLqb7wjC/grammarly.jpg",
+    "tagType": "Best Seller",
+    "features": ["Grammar check", "Plagiarism detection", "Tone suggestions"]
+  },
+  {
+    "id": 8,
+    "title": "Zapier",
+    "description": "Automate workflows between apps\nSave time by connecting your tools",
+    "price": 20,
+    "period": "monthly",
+    "tag": "Popular",
+    "icon": "https://i.ibb.co/B2N6bT13/Zapier-logo-svg.png",
+    "tagType": "Popular",
+    "features": ["Workflow automation", "App integrations", "Task scheduling"]
+  },
+  {
+    "id": 9,
+    "title": "Asana",
+    "description": "Manage projects and tasks with ease\nCollaborate and track team progress",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "icon": "https://i.ibb.co/chgzHWvS/Asana-Logo.png",
+    "tagType": "New",
+    "features": ["Task tracking", "Project timelines", "Team collaboration"]
+  },
+  {
+    "id": 10,
+    "title": "Adobe XD",
+    "description": "Design and prototype apps and websites\nCreate interactive user experiences",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Adobe_XD_CC_icon.svg",
+    "tagType": "Best Seller",
+    "features": ["UI/UX design", "Prototyping", "Collaboration tools"]
+  }
+]
