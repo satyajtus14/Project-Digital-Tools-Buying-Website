@@ -11,9 +11,10 @@
 
 
 
-**A modern e-commerce platform for digital tools, built with React, Tailwind CSS, and DaisyUI.**
+**A modern e-commerce platform for digital tools, built with React, Tailwind CSS, and Daisy UI.**
 
-[Live Demo](https://milestone-06-digital-tools-buying-website.vercel.app/) 
+[Live Demo](https://satyajtus14.github.io/Project-Digital-Tools-Buying-Website/)    
+
 [Repository](https://github.com/satyajtus14/Milestone-06-Digital-Tools-Buying-Website)
  
 </div>
